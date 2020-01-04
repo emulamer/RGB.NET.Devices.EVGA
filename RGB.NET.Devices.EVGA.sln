@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RGB.NET.Devices.EVGA", "RGB.NET.Devices.EVGA\RGB.NET.Devices.EVGA.csproj", "{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVGAProxy", "EVGAProxy\EVGAProxy.csproj", "{3A90A715-4685-4923-A572-C04947071ABE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Debug|x64.ActiveCfg = Debug|x64
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Debug|x64.Build.0 = Debug|x64
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Debug|x86.ActiveCfg = Debug|x86
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Debug|x86.Build.0 = Debug|x86
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Release|x64.ActiveCfg = Release|x64
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Release|x64.Build.0 = Release|x64
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Release|x86.ActiveCfg = Release|x86
+		{E82C8DA8-83E9-4862-AB6B-F7C9734D2F01}.Release|x86.Build.0 = Release|x86
+		{3A90A715-4685-4923-A572-C04947071ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A90A715-4685-4923-A572-C04947071ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A90A715-4685-4923-A572-C04947071ABE}.Debug|x64.ActiveCfg = Debug|x64
+		{3A90A715-4685-4923-A572-C04947071ABE}.Debug|x64.Build.0 = Debug|x64
+		{3A90A715-4685-4923-A572-C04947071ABE}.Debug|x86.ActiveCfg = Debug|x86
+		{3A90A715-4685-4923-A572-C04947071ABE}.Debug|x86.Build.0 = Debug|x86
+		{3A90A715-4685-4923-A572-C04947071ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A90A715-4685-4923-A572-C04947071ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A90A715-4685-4923-A572-C04947071ABE}.Release|x64.ActiveCfg = Release|x64
+		{3A90A715-4685-4923-A572-C04947071ABE}.Release|x64.Build.0 = Release|x64
+		{3A90A715-4685-4923-A572-C04947071ABE}.Release|x86.ActiveCfg = Release|x86
+		{3A90A715-4685-4923-A572-C04947071ABE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE3832C6-69BB-4C90-B375-6AF83EEC5604}
+	EndGlobalSection
+EndGlobal

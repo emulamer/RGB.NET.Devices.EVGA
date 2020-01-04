@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\EVGAProxy\bin\x64\Debug\EVGAProxy.exe" Link="EVGAProxy.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="RGB.NET.Core">
+      <HintPath>..\..\..\AppData\Roaming\JackNet RGB Sync\RGB.NET.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
