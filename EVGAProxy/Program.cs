@@ -9,6 +9,8 @@ namespace EVGAProxy
     public class Program
     {
         static EVGA64Proxy prox;
+
+        //I did the most offensively crappy IPC I could, because it was also the most quickiest to implement with the lowiest overhead
         private static byte[] DoMsg(byte[] msg)
         {
             byte[] resp = null;
@@ -39,12 +41,16 @@ namespace EVGAProxy
         public static void Main(string[] args)
         {
             EVGA64Proxy.Log("Starting");
+            //I wanna do some async because it's cool, so. yeah.  Wait.
             Main().Wait();
         }
 
+        //the whole half assed idea of this function is try to get a connection and hold it, or just die.
+        //  not very resilient, but may help processes from sticking around when they aren't wanted.
         public static async Task Main()
         {
-            try {
+            try
+            {
                 prox = new EVGA64Proxy();
                 Queue<byte> queue = new Queue<byte>();
                 EVGA64Proxy.Log("Starting pipe server");
@@ -104,9 +110,9 @@ namespace EVGAProxy
             }
             catch (Exception ex)
             {
+                //going to exit anyways, log it and let nature take its course
                 EVGA64Proxy.Log($"Exception in main: {ex.Message}");
             }
-            }
-            
+        }            
     }
 }
